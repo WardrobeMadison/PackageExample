@@ -10,7 +10,7 @@ For use with pythondotnet (clr), use
 
 ```pyinstaller -w -F --add-data "apps;apps" --add-data "assets;assets"  --hidden-import=clr index.py```
 
-## Sturcturing 
+## Structuring 
 For large-multi-page apps, use this structure. 
 
 ```
