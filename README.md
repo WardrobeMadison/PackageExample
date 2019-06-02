@@ -6,7 +6,7 @@
 3. Download pyinstaller. 
 4. Run ```pyinstaller -w -F --add-data "apps;apps" --add-data "assets;assets" index.py```. 
 
-For use with, pythondotnet, use
+For use with pythondotnet, use
 
 ```pyinstaller -w -F --add-data "apps;apps" --add-data "assets;assets"  --hidden-import=clr index.py```
 
